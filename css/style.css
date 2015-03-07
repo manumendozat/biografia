@@ -1,0 +1,24 @@
+@import url("http://fonts.googleapis.com/css?family=Raleway");
+header {
+  text-height: max-size;
+  text-align: center;
+  height: 5em;
+  font-family: "Raleway";
+}
+nav {
+  border-radius: 5px;
+  background-color: #d8d40f;
+  display: block;
+  height: 3em;
+  width: 99%;
+}
+nav ul {
+  bottom: 15px;
+  text-align: center;
+}
+nav ul li {
+  bottom: 2em;
+  display: inline;
+  list-style-type: none;
+  margin: 0.5em;
+}

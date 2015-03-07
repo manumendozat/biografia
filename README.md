@@ -1,4 +1,4 @@
-# biografia
+# Biografia
 Paguina de descripcion personal y habilidades
 
 En esta pagina estan mis habilidades tecnicas en el are de informatica y un comentario de cada una de ellas,

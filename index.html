@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<link rel="stylesheet" href="normalize.css">
 	<link rel="stylesheet" href="css/style.css">
 	<title>Final</title>
 </head>
-<body>
+<body id="home">
 	<header>
 		<h1>
 			Erasmo Yunior Montes Lora
@@ -13,26 +14,28 @@
 	</header>
 	<nav>
 		<ul>
-			<li>Home</li>
-			<li>About</li>
-			<li>Skills</li>
-			<li>Contac</li>
+			<li><a href="#home">Home</a></li>
+			<li><a href="#about">About</a></li>
+			<li><a href="#skills">Skills</a></li>
+			<li><a href="#contactos">Contactos</a></li>
 		</ul>
 	</nav>
-	<article>
+	<article class="pensamiento">
 		<h1>Pensamiento Personal</h1>
 		<p>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque feugiat, risus vitae facilisis imperdiet, lectus nisl posuere erat, lobortis posuere arcu lorem in elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In molestie tincidunt dui vitae ullamcorper. Sed vestibulum, mi in dignissim ornare, magna metus dignissim odio, non venenatis leo neque vel libero. Maecenas malesuada velit a ultrices porttitor. Donec imperdiet, velit a molestie faucibus, orci diam laoreet arcu, at cursus ante magna a mi. Mauris consequat facilisis leo quis elementum. Proin tincidunt tristique lacus, sit amet posuere nisi gravida at. Nulla sem nulla, blandit a lorem vitae, molestie vehicula purus. Etiam faucibus justo id nibh aliquam, ac pulvinar sapien pellentesque. 
+			En la vida hay cosas buenas y maslas, dulces o saladas, blancas u oscuras, frias o calientes, pero de todas  estas hay que saber cual elegir, ya que seremos responsables de las consecuencias que dicha eleccion nos traiga.
 		</p>
 	</article>
-	<article>
+	<article id="about">
 		<h2>About</h2>
-		<img src="img/yo2.jpg" alt="Actualemente">
-		<p>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque feugiat, risus vitae facilisis imperdiet, lectus nisl posuere erat, lobortis posuere arcu lorem in elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In molestie tincidunt dui vitae ullamcorper. Sed vestibulum, mi in dignissim ornare, magna metus dignissim odio, non venenatis leo neque vel libero. Maecenas malesuada velit a ultrices porttitor. Donec imperdiet, velit a molestie faucibus, orci diam laoreet arcu, at cursus ante magna a mi. Mauris consequat facilisis leo quis elementum. Proin tincidunt tristique lacus, sit amet posuere nisi gravida at. Nulla sem nulla, blandit a lorem vitae, molestie vehicula purus. Etiam faucibus justo id nibh aliquam, ac pulvinar sapien pellentesque. 
-		</p>
+		<figure class="about">
+			<img src="img/yo2.jpg" alt="Actualemente">
+			<p>
+				Soy un joven que le gusta programar y ver como de la nada puedes crear algo imprecionante, solo con una buena imaguinacion. Me gusta aprender cosas nuevas y investigar como los grande desarrolladores programan, siempre trato de estar en las comunidades de programacion aunque no se el lenguaje que este programando en el momento.
+			</p>
+		</figure>
 	</article>
-	<article class="skills">
+	<article class="skills" id="skills">
 		<h2>Skills</h2>
 		<div class="web">
 			<h2>Web</h2>
@@ -131,7 +134,7 @@
 			</figure>
 		</div>
 	</article>
-	<article class="contact">
+	<article class="contact" id="contactos">
 		<h2>
 			Contactos
 		</h2>

@@ -1,0 +1,11 @@
+{
+  "name": "practicaFinal",
+  "version": "0.0.1",
+  "descripcion": "Pagina statica de contenido biografico",
+  "main": "index.html",
+  "devDependencies": {
+    "browser-sync": "^2.2.3",
+    "gulp": "^3.8.11",
+    "gulp-minify-css": "^0.5.1"
+  }
+}

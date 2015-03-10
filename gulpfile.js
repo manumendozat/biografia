@@ -9,8 +9,8 @@ gulp.task('servidor',['css'], function(){
 			baseDir: "./"
 		}	
 	});
-		gulp.watch('css/*.css', ['css']);
-		gulp.watch('./*.html').on('change', reload);
+	gulp.watch('css/*.css', ['css']).on('change', reload);
+	gulp.watch('./*.html').on('change', reload);
 	})
 
 gulp.task('css', function(){

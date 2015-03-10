@@ -1,18 +1,31 @@
 /*Tal los titulos*/
-@import url(http://fonts.googleapis.com/css?family=Cinzel+Decorative);
+/*@import url(http://fonts.googleapis.com/css?family=Cinzel+Decorative);*/
 
 /*para el nav*/
 @import url(http://fonts.googleapis.com/css?family=Khand);
 
 /*para los parrafos*/
 @import url(http://fonts.googleapis.com/css?family=Rajdhani);
+
+.home{
+	background-image: url("../img/fondo2.jpeg");
+	background-repeat: no-repeat;
+	background-size: 100% 34em;
+	width: 100%;
+}
+.home h1{
+	
+}
+h2{
+	text-align: center;
+}
 header{
-	margin-top: 3em;
 	text-align: center;
 	width:100%
 }
 header h1{
 	font-family: "Cinzel Decorative";
+	color: #DFDCDC;
 }
 nav{
 	left: 3em;
@@ -33,6 +46,7 @@ nav ul li{
 	margin: 0.5em;
 	font-size: 2em;
 }
+
 .pensamiento{
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -41,8 +55,8 @@ nav ul li{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	height: 23em;
-	margin-bottom: 2em;
+	height: 380px;
+	
 	
 }
 .pensamiento h1{
@@ -53,40 +67,50 @@ nav ul li{
 	width: 50%;
 	padding: 0.5em;
 }
-.about{
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
-	display: flex;
+
+#about{
+	background-image: url("../img/about.jpg");
 }
 
-li{
-	font-family: "Khand";
-}
-p{
-	font-family: "Rajdhani";
-	font-size: 1.7em;
-}
-h2{
-	text-align: center;
-}
 .about{
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
-	flex-wrap: wrap;
 	justify-content: center;
+	height: 580px;
 }
 .about img{
-	width: 25%;
-	border-radius: 0.5em;
-	margin-left: .5em
-
+	width: 20%;
+	height: 48%;
+	align-self: center;
+	border-radius: 5px solid;
 }
 .about p{
-	width: 25em;
-	margin: 0.7em 0 0.5em 0.5em;
+	margin-left: .5em;
+	width: 35%;
+	align-self: center;
+}
+
+.skills img{
+	width: 15%;
+}
+.skills p{
+	width: 40%;
+}
+.skills img, .skills p{
+	display: inline-block;
+}
+
+
+.contact{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	height: 35em;
 }
